@@ -1,0 +1,127 @@
+
+<div id="header" class="shrink collapse grid-content">
+	<div  class="ng-scope">
+		<nav class="global-nav ng-scope">
+			<ul class="title-area">
+				<li class="name">
+					<a href=""><img src="/assets/img/logo310x150.png" width="195"></a>				
+				</li>
+			</ul>
+			<ul class="right">
+
+				<li class="has-form">
+		          <div class="row collapse">
+		            <div class="columns" style="position:relative; top:20px;">
+		              <input type="text" class="js-search middle is-empty" value="Search User or Organization" name="search" style="height:2.0rem; min-width:222px;">
+		            </div>
+		          
+		          </div>
+		        </li>
+
+		        <li>
+		        	<a href="#"><img src="/assets/img/icons/Bell.png" style="vertical-align:middle; border-radius:6px;"></a>
+		        </li>			
+				<li><a href="http://foundation.zurb.com/apps/features.html">Md Mohiuddin Mahmud
+					<img src="/assets/img/icons/photo.png" style="vertical-align:middle; border-radius:6px;">
+					</a>
+				</li>
+				
+			</ul>
+		</nav>
+	</div>
+</div>
+
+<div class="grid-block ng-scope">
+	<div class="docs-sidebar panel ng-isolate-scope panel-left" ng-class="positionClass" ng-transclude="" zf-panel="" id="sidebar" zf-closable="panel">
+ 		<div class="grid-content collapse ng-scope">		
+			
+			<div class="ng-scope"><a zf-close="" class="close-button hide-for-medium ng-scope">×</a>
+				<div class="sb-menu-wrapper scroll-y">
+					<div class="sb-menu sb-menu-with-icons">
+						
+						<div class="js-sb-global-apps" role="navigation">
+							<ul class="sb-menu-list">
+								<li>
+									<a class="sb-menu-list-item js-sidebar-app" href="">								
+										<div class="sb-menu-list-item__title"><i class="icon-dashboard "></i>Dashboard
+										</div>
+									</a>
+								</li>					
+
+								<li>
+									<a class="sb-menu-list-item js-sidebar-app" href="">								
+										<div class="sb-menu-list-item__title"><i class="icon-dashboard "></i>Inbox
+										</div>
+									</a>
+									
+								</li>
+
+								<li>
+									<a class="sb-menu-list-item js-sidebar-app" href="">								
+										<div class="sb-menu-list-item__title"><i class="icon-dashboard "></i>Invite
+										</div>
+									</a>
+									
+								</li>
+
+								<li>
+									<a class="sb-menu-list-item js-sidebar-app is-selected" href="">								
+										<div class="sb-menu-list-item__title"><i class="icon-dashboard "></i>MyProfile
+										</div>
+									</a>
+									
+								</li>
+								
+							</ul>
+
+							<div class="menu_title">
+								<a>ORGANIZATIONS</a>
+							</div>
+
+							<ul class="sb-menu-list">
+								<li>
+									<a class="sb-menu-list-item js-sidebar-app" href="">								
+										<div class="sb-menu-list-item__title"><i class="icon-dashboard "></i>KSW
+										</div>
+									</a>
+								</li>					
+
+								<li>
+									<a class="sb-menu-list-item js-sidebar-app" href="">								
+										<div class="sb-menu-list-item__title"><i class="icon-dashboard "></i>Personal Account
+										</div>
+									</a>
+									
+								</li>
+
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+ 
+	</div>
+
+	<div class="docs-main" ng-show="$state.current.name.length">
+		<!-- <div class="grid-container">
+			<a class="small secondary expand button hide-for-medium" zf-toggle="sidebar">Show Sidebar</a>
+			<!-- uiView:  -->
+			<div ng-class="['ui-animation']" ui-view="" autoscroll="" class="ng-scope ui-animation">
+				<div id="dvBodyContent">
+					<div class="grid-block">
+			<div class="grid-content medium-2">B</div>
+			<div class="grid-content">D</div>
+		</div>
+				</div>
+			</div>
+		</div> 
+
+		
+ 
+	<!-- ngInclude: 'partials/zurb-footer.html' -->
+	 
+	</div>
+</div>

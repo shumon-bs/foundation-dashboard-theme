@@ -1,0 +1,27 @@
+.instruction-videos {
+  video {
+    float: left;
+    height: 100px;
+    width: 75px;
+    margin-right: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+}
+
+#landing {
+  .instruction {
+    .row:first-child {
+      padding-top:30px
+    }
+
+    .mid-separator-top {
+      height:460px !important;
+    }
+
+    .wrap {
+      height: 500px;
+    }
+  }  
+}
